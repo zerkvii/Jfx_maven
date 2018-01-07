@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="root" prefHeight="500.0" prefWidth="840.0" stylesheets="@../css/app.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.app_ctrler">
+   <children>
+      <AnchorPane id="left_pic" layoutX="92.0" layoutY="80.0" prefHeight="240.0" prefWidth="300.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="80.0" />
+      <AnchorPane id="right_pic" layoutX="532.0" layoutY="120.0" prefHeight="240.0" prefWidth="300.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="80.0" />
+      <JFXProgressBar layoutX="250.0" layoutY="360.0" prefHeight="15.0" prefWidth="340.0" />
+      <JFXButton id="imp_btn" buttonType="RAISED" layoutX="120.0" layoutY="355.0" prefHeight="25.0" prefWidth="100.0" ripplerFill="#212121" text="导入" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="350.0">
+         <font>
+            <Font name="YouYuan" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="Cope_btn" buttonType="RAISED" layoutX="640.0" layoutY="355.0" prefHeight="25.0" prefWidth="100.0" ripplerFill="#212121" text="处理" AnchorPane.rightAnchor="114.0" AnchorPane.topAnchor="350.0">
+         <font>
+            <Font name="YouYuan" size="18.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>
